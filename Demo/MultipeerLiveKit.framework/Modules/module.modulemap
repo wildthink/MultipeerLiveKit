@@ -1,4 +1,0 @@
-framework module MultipeerLiveKit {
-  header "MultipeerLiveKit-Swift.h"
-  requires objc
-}

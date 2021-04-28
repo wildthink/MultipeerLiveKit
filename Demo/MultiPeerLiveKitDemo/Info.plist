@@ -20,8 +20,15 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_debug-demo._tcp</string>
+		<string>_debug-demo._udp</string>
+	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>to take movie</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect to peers on the local network</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>to take movie</string>
 	<key>UILaunchStoryboardName</key>

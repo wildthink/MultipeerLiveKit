@@ -7,33 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		873FC11C2235FC21008C7AB5 /* MultipeerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 873FC11A2235FC21008C7AB5 /* MultipeerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		873FC1242235FC68008C7AB5 /* MCSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1232235FC68008C7AB5 /* MCSessionManager.swift */; };
-		873FC1262235FC91008C7AB5 /* AdvertisingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1252235FC91008C7AB5 /* AdvertisingModel.swift */; };
-		873FC1282235FCA2008C7AB5 /* BrowserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1272235FCA2008C7AB5 /* BrowserModel.swift */; };
-		873FC12A2235FD3F008C7AB5 /* MultipeerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1292235FD3F008C7AB5 /* MultipeerProtocols.swift */; };
-		873FC12E2235FDBC008C7AB5 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC12D2235FDBC008C7AB5 /* utils.swift */; };
-		873FC1312235FECF008C7AB5 /* MCStreamHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1302235FECF008C7AB5 /* MCStreamHelper.swift */; };
-		873FC1332235FF30008C7AB5 /* MCPeerID+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1322235FF30008C7AB5 /* MCPeerID+.swift */; };
-		873FC1352235FFF5008C7AB5 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1342235FFF5008C7AB5 /* NSObject+.swift */; };
-		873FC13722360052008C7AB5 /* RandomGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC13622360052008C7AB5 /* RandomGenerater.swift */; };
-		873FC1392236008D008C7AB5 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1382236008D008C7AB5 /* TimerManager.swift */; };
-		873FC1402236013F008C7AB5 /* CameraProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC13F2236013F008C7AB5 /* CameraProtocols.swift */; };
-		873FC1422236018D008C7AB5 /* SampleBufferCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1412236018D008C7AB5 /* SampleBufferCamera.swift */; };
-		873FC144223602F8008C7AB5 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC143223602F8008C7AB5 /* DataReader.swift */; };
-		873FC14622360358008C7AB5 /* AudioDataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC14522360358008C7AB5 /* AudioDataConverter.swift */; };
-		873FC1482236036A008C7AB5 /* AudioCaptureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1472236036A008C7AB5 /* AudioCaptureModel.swift */; };
-		873FC14A2236037F008C7AB5 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC1492236037F008C7AB5 /* AudioPlayer.swift */; };
-		873FC14C22360412008C7AB5 /* MediaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC14B22360412008C7AB5 /* MediaPresenter.swift */; };
-		873FC14F22360494008C7AB5 /* LivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC14E22360494008C7AB5 /* LivePresenter.swift */; };
-		873FC170223607D7008C7AB5 /* VideoDataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC16F223607D7008C7AB5 /* VideoDataConverter.swift */; };
-		87593675223CA74700AF47AF /* PeerIDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87593674223CA74700AF47AF /* PeerIDHelper.swift */; };
 		87C214A222366243001E1FA2 /* MultipeerLiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873FC1172235FC21008C7AB5 /* MultipeerLiveKit.framework */; };
-		87C214AC22366D83001E1FA2 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FC12D2235FDBC008C7AB5 /* utils.swift */; };
-		87D9F4C12244846400165950 /* MCSessionManagerTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C214A9223666C6001E1FA2 /* MCSessionManagerTester.swift */; };
-		87D9F4C422448A1C00165950 /* VideoOnlyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9F4C322448A1C00165950 /* VideoOnlyHelper.swift */; };
-		87D9F4C62244995A00165950 /* MultipeerLiveKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2149F22366243001E1FA2 /* MultipeerLiveKitTests.swift */; };
-		87ED8B182236BB1A00251B71 /* AudioProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED8B172236BB1A00251B71 /* AudioProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,35 +29,8 @@
 
 /* Begin PBXFileReference section */
 		873FC1172235FC21008C7AB5 /* MultipeerLiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipeerLiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873FC11A2235FC21008C7AB5 /* MultipeerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipeerKit.h; sourceTree = "<group>"; };
-		873FC11B2235FC21008C7AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		873FC1232235FC68008C7AB5 /* MCSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSessionManager.swift; sourceTree = "<group>"; };
-		873FC1252235FC91008C7AB5 /* AdvertisingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingModel.swift; sourceTree = "<group>"; };
-		873FC1272235FCA2008C7AB5 /* BrowserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModel.swift; sourceTree = "<group>"; };
-		873FC1292235FD3F008C7AB5 /* MultipeerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerProtocols.swift; sourceTree = "<group>"; };
-		873FC12D2235FDBC008C7AB5 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
-		873FC1302235FECF008C7AB5 /* MCStreamHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCStreamHelper.swift; sourceTree = "<group>"; };
-		873FC1322235FF30008C7AB5 /* MCPeerID+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MCPeerID+.swift"; sourceTree = "<group>"; };
-		873FC1342235FFF5008C7AB5 /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
-		873FC13622360052008C7AB5 /* RandomGenerater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerater.swift; sourceTree = "<group>"; };
-		873FC1382236008D008C7AB5 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
-		873FC13F2236013F008C7AB5 /* CameraProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProtocols.swift; sourceTree = "<group>"; };
-		873FC1412236018D008C7AB5 /* SampleBufferCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBufferCamera.swift; sourceTree = "<group>"; };
-		873FC143223602F8008C7AB5 /* DataReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReader.swift; sourceTree = "<group>"; };
-		873FC14522360358008C7AB5 /* AudioDataConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDataConverter.swift; sourceTree = "<group>"; };
-		873FC1472236036A008C7AB5 /* AudioCaptureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureModel.swift; sourceTree = "<group>"; };
-		873FC1492236037F008C7AB5 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
-		873FC14B22360412008C7AB5 /* MediaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPresenter.swift; sourceTree = "<group>"; };
-		873FC14E22360494008C7AB5 /* LivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresenter.swift; sourceTree = "<group>"; };
-		873FC16F223607D7008C7AB5 /* VideoDataConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataConverter.swift; sourceTree = "<group>"; };
-		87593674223CA74700AF47AF /* PeerIDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerIDHelper.swift; sourceTree = "<group>"; };
 		87C2149D22366243001E1FA2 /* MultipeerLiveKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerLiveKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87C2149F22366243001E1FA2 /* MultipeerLiveKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerLiveKitTests.swift; sourceTree = "<group>"; };
-		87C214A122366243001E1FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87C214A9223666C6001E1FA2 /* MCSessionManagerTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSessionManagerTester.swift; sourceTree = "<group>"; };
 		87D9F4AA2243554300165950 /* MultiPeerLiveKitDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MultiPeerLiveKitDemo.xcodeproj; path = Demo/MultiPeerLiveKitDemo.xcodeproj; sourceTree = "<group>"; };
-		87D9F4C322448A1C00165950 /* VideoOnlyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoOnlyHelper.swift; path = MultipeerLiveKit/Sources/Helpers/VideoOnlyHelper.swift; sourceTree = SOURCE_ROOT; };
-		87ED8B172236BB1A00251B71 /* AudioProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				87D9F4AA2243554300165950 /* MultiPeerLiveKitDemo.xcodeproj */,
-				873FC1192235FC21008C7AB5 /* MultipeerLiveKit */,
-				87C2149E22366243001E1FA2 /* MultipeerLiveKitTests */,
 				873FC1182235FC21008C7AB5 /* Products */,
 				872CFB47223FACE5007CF394 /* Frameworks */,
 			);
@@ -130,119 +75,6 @@
 				87C2149D22366243001E1FA2 /* MultipeerLiveKitTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		873FC1192235FC21008C7AB5 /* MultipeerLiveKit */ = {
-			isa = PBXGroup;
-			children = (
-				873FC16E22360782008C7AB5 /* Sources */,
-				873FC11A2235FC21008C7AB5 /* MultipeerKit.h */,
-				873FC11B2235FC21008C7AB5 /* Info.plist */,
-			);
-			path = MultipeerLiveKit;
-			sourceTree = "<group>";
-		};
-		873FC1222235FC42008C7AB5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				873FC1232235FC68008C7AB5 /* MCSessionManager.swift */,
-				873FC1252235FC91008C7AB5 /* AdvertisingModel.swift */,
-				873FC1272235FCA2008C7AB5 /* BrowserModel.swift */,
-				873FC1292235FD3F008C7AB5 /* MultipeerProtocols.swift */,
-				87D9F4C322448A1C00165950 /* VideoOnlyHelper.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		873FC12B2235FD8F008C7AB5 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				87593674223CA74700AF47AF /* PeerIDHelper.swift */,
-				873FC1302235FECF008C7AB5 /* MCStreamHelper.swift */,
-				873FC13622360052008C7AB5 /* RandomGenerater.swift */,
-				873FC1382236008D008C7AB5 /* TimerManager.swift */,
-				873FC143223602F8008C7AB5 /* DataReader.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		873FC12C2235FDA5008C7AB5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				873FC12D2235FDBC008C7AB5 /* utils.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		873FC12F2235FE21008C7AB5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				873FC1322235FF30008C7AB5 /* MCPeerID+.swift */,
-				873FC1342235FFF5008C7AB5 /* NSObject+.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		873FC13A223600BD008C7AB5 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				873FC13C223600DA008C7AB5 /* Audio */,
-				873FC13B223600CE008C7AB5 /* Camera */,
-			);
-			path = Media;
-			sourceTree = "<group>";
-		};
-		873FC13B223600CE008C7AB5 /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				873FC13F2236013F008C7AB5 /* CameraProtocols.swift */,
-				873FC16F223607D7008C7AB5 /* VideoDataConverter.swift */,
-				873FC1412236018D008C7AB5 /* SampleBufferCamera.swift */,
-			);
-			path = Camera;
-			sourceTree = "<group>";
-		};
-		873FC13C223600DA008C7AB5 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				873FC14522360358008C7AB5 /* AudioDataConverter.swift */,
-				873FC1472236036A008C7AB5 /* AudioCaptureModel.swift */,
-				873FC1492236037F008C7AB5 /* AudioPlayer.swift */,
-				87ED8B172236BB1A00251B71 /* AudioProtocols.swift */,
-			);
-			path = Audio;
-			sourceTree = "<group>";
-		};
-		873FC14D22360483008C7AB5 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				873FC14E22360494008C7AB5 /* LivePresenter.swift */,
-				873FC14B22360412008C7AB5 /* MediaPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		873FC16E22360782008C7AB5 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				873FC14D22360483008C7AB5 /* Presenter */,
-				873FC1222235FC42008C7AB5 /* Models */,
-				873FC12B2235FD8F008C7AB5 /* Helpers */,
-				873FC13A223600BD008C7AB5 /* Media */,
-				873FC12F2235FE21008C7AB5 /* Extensions */,
-				873FC12C2235FDA5008C7AB5 /* Utils */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		87C2149E22366243001E1FA2 /* MultipeerLiveKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				87C2149F22366243001E1FA2 /* MultipeerLiveKitTests.swift */,
-				87C214A9223666C6001E1FA2 /* MCSessionManagerTester.swift */,
-				87C214A122366243001E1FA2 /* Info.plist */,
-			);
-			path = MultipeerLiveKitTests;
 			sourceTree = "<group>";
 		};
 		87D9F4AB2243554300165950 /* Products */ = {
@@ -260,7 +92,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873FC11C2235FC21008C7AB5 /* MultipeerKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873FC144223602F8008C7AB5 /* DataReader.swift in Sources */,
-				873FC13722360052008C7AB5 /* RandomGenerater.swift in Sources */,
-				873FC1392236008D008C7AB5 /* TimerManager.swift in Sources */,
-				873FC1422236018D008C7AB5 /* SampleBufferCamera.swift in Sources */,
-				873FC1402236013F008C7AB5 /* CameraProtocols.swift in Sources */,
-				873FC14C22360412008C7AB5 /* MediaPresenter.swift in Sources */,
-				873FC14F22360494008C7AB5 /* LivePresenter.swift in Sources */,
-				87593675223CA74700AF47AF /* PeerIDHelper.swift in Sources */,
-				87D9F4C422448A1C00165950 /* VideoOnlyHelper.swift in Sources */,
-				873FC1332235FF30008C7AB5 /* MCPeerID+.swift in Sources */,
-				873FC14622360358008C7AB5 /* AudioDataConverter.swift in Sources */,
-				873FC170223607D7008C7AB5 /* VideoDataConverter.swift in Sources */,
-				87ED8B182236BB1A00251B71 /* AudioProtocols.swift in Sources */,
-				873FC1312235FECF008C7AB5 /* MCStreamHelper.swift in Sources */,
-				873FC1482236036A008C7AB5 /* AudioCaptureModel.swift in Sources */,
-				873FC14A2236037F008C7AB5 /* AudioPlayer.swift in Sources */,
-				873FC12E2235FDBC008C7AB5 /* utils.swift in Sources */,
-				873FC1262235FC91008C7AB5 /* AdvertisingModel.swift in Sources */,
-				873FC1282235FCA2008C7AB5 /* BrowserModel.swift in Sources */,
-				873FC1242235FC68008C7AB5 /* MCSessionManager.swift in Sources */,
-				873FC12A2235FD3F008C7AB5 /* MultipeerProtocols.swift in Sources */,
-				873FC1352235FFF5008C7AB5 /* NSObject+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D9F4C12244846400165950 /* MCSessionManagerTester.swift in Sources */,
-				87C214AC22366D83001E1FA2 /* utils.swift in Sources */,
-				87D9F4C62244995A00165950 /* MultipeerLiveKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

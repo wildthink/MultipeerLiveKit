@@ -8,6 +8,19 @@
 
 [Multipeer Connectivity](https://developer.apple.com/documentation/multipeerconnectivity) Wrapper.
 
+Real Time Party Communications
+
+- text/chat
+- audio
+- video
+- shared database (sqlite)
+    - structured data
+    - JSON
+    - documents / media
+- events
+- commands
+
+
 
 
 ## Description
@@ -27,6 +40,10 @@ This library provides things Live Camera and Like a Text Chat.
 
 When using this library, you need to define MCSessionManager and LivePresenter.
 
+
+### Session Shared Context - jmj
+
+A sqlite database synchronized across all Peers
 
 ### #MCSessionManager#
 MCSessionManager is a class for establishing a connection.

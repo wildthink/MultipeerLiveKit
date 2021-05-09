@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/hayao/Desktop/MultipeerLiveVideoKit-desktop/MultipeerLiveVideoKit/MultipeerLiveKit.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

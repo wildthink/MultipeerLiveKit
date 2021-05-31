@@ -12,7 +12,7 @@ import MultipeerConnectivity
 public enum MCConnectionState: String {
     case tryConnecting
     case connected
-    case connectionFail
+    case connectionFail = "not connected"
 }
 
 public enum RunStateType: String {

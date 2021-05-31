@@ -12,7 +12,8 @@ import SnapKit
 final class LiveView: NSObject {
     private var view: UIView!
     private let toHiddenKeyboardGesture:UITapGestureRecognizer = .init()
-    let imageView = UIImageView()
+//    let imageView = UIImageView()
+    let imageView = AVView()
     let receivedTextLabel = UILabel()
     let sendTextField = UITextField()
     let textSendButton = UIButton()

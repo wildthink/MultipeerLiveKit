@@ -7,7 +7,14 @@
 //
 
 import AVFoundation
+
+#if os(iOS)
 import UIKit
+//public typealias Image = UIImage
+#elseif os(macOS)
+import Cocoa
+//public typealias Image = NSImage
+#endif
 
 struct VideoDataConverter {
 
@@ -42,7 +49,7 @@ struct VideoDataConverter {
         return data
     }
 
-    static func convertImageFrom(buffer: CMSampleBuffer?) -> UIImage? {
+    static func convertImageFrom(buffer: CMSampleBuffer?) -> Image? {
         guard
             let _buffer = buffer,
             let imageBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(_buffer)
@@ -52,16 +59,16 @@ struct VideoDataConverter {
         return self.convertImageFrom(ciimage: ciimage)
     }
 
-    static func convertImageFrom(data: Data) -> UIImage? {
+    static func convertImageFrom(data: Data) -> Image? {
         let ciimage: CIImage = CIImage.init(data: data)!
         return self.convertImageFrom(ciimage: ciimage)
     }
 
-    private static func convertImageFrom(ciimage: CIImage) -> UIImage? {
+    private static func convertImageFrom(ciimage: CIImage) -> Image? {
         guard let cgImage = context.createCGImage(ciimage, from: ciimage.extent) else {
             return nil
         }
-        let image:UIImage = .init(cgImage: cgImage, scale: 0, orientation: .right)
+        let image:Image = .init(cgImage: cgImage, scale: 0, orientation: .right)
         return image
     }
 
@@ -76,7 +83,7 @@ struct VideoDataConverter {
         return (pointer:unsafePointer, size:nsData.length)
     }
 
-    static func createPngDataFrom(image: UIImage) -> (UnsafePointer<UInt8>, Int)? {
+    static func createPngDataFrom(image: Image) -> (UnsafePointer<UInt8>, Int)? {
         guard let data = image.pngData() else {
             return nil
         }
@@ -85,7 +92,7 @@ struct VideoDataConverter {
         return (unsafePointer, nsData.length)
     }
     
-    static func createJpegDataFrom(image:UIImage,quality:CGFloat) -> (pointer:UnsafePointer<UInt8>,size:Int)? {
+    static func createJpegDataFrom(image:Image,quality:CGFloat) -> (pointer:UnsafePointer<UInt8>,size:Int)? {
         guard let data = image.jpegData(compressionQuality: quality) else {
             return nil
         }
@@ -94,12 +101,12 @@ struct VideoDataConverter {
         return (unsafePointer,nsData.length)
     }
     
-    static func imageToJpegData(_ image:UIImage?,compressionQuality:CGFloat) -> Data?{
+    static func imageToJpegData(_ image:Image?,compressionQuality:CGFloat) -> Data?{
         guard let _image = image else { return nil }
         return _image.jpegData(compressionQuality: compressionQuality)
     }
 
-    static func imageToPngData(_ image:UIImage?) -> Data?{
+    static func imageToPngData(_ image:Image?) -> Data?{
         return image?.pngData()
     }
 

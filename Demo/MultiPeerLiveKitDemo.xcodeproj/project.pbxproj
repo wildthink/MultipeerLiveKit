@@ -27,6 +27,8 @@
 		87ED8B1A22380B5E00251B71 /* CellContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED8B1922380B5D00251B71 /* CellContentCoordinator.swift */; };
 		962845D1262F3F9D00D99451 /* MultipeerLiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = 962845D0262F3F9D00D99451 /* MultipeerLiveKit */; };
 		962845D4262F3FC800D99451 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 962845D3262F3FC800D99451 /* SnapKit */; };
+		96448F31266410C20035B32C /* AVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96448F30266410C20035B32C /* AVView.swift */; };
+		96448F33266495520035B32C /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96448F32266495520035B32C /* UIImage+Ext.swift */; };
 		967C60E2263A238E00D07BF1 /* LivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60C4263A238E00D07BF1 /* LivePresenter.swift */; };
 		967C60E3263A238E00D07BF1 /* MediaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60C5263A238E00D07BF1 /* MediaPresenter.swift */; };
 		967C60E4263A238E00D07BF1 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60C7263A238E00D07BF1 /* utils.swift */; };
@@ -50,9 +52,6 @@
 		967C60F6263A238E00D07BF1 /* AudioCaptureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60E0263A238E00D07BF1 /* AudioCaptureModel.swift */; };
 		967C60F7263A238E00D07BF1 /* AudioDataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60E1263A238E00D07BF1 /* AudioDataConverter.swift */; };
 		967C60FA263A23B300D07BF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 967C60F8263A23B300D07BF1 /* README.md */; };
-		967C60FB263A23B300D07BF1 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60F9263A23B300D07BF1 /* Package.swift */; };
-		967C6100263A23CD00D07BF1 /* MCSessionManagerTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60FE263A23CD00D07BF1 /* MCSessionManagerTester.swift */; };
-		967C6101263A23CD00D07BF1 /* MultipeerLiveKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C60FF263A23CD00D07BF1 /* MultipeerLiveKitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +88,8 @@
 		87C2149322365E13001E1FA2 /* ConnectionButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionButtonModel.swift; sourceTree = "<group>"; };
 		87C2149522365EE5001E1FA2 /* PeerIDTableProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerIDTableProtocols.swift; sourceTree = "<group>"; };
 		87ED8B1922380B5D00251B71 /* CellContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellContentCoordinator.swift; sourceTree = "<group>"; };
+		96448F30266410C20035B32C /* AVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVView.swift; sourceTree = "<group>"; };
+		96448F32266495520035B32C /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		967C60C4263A238E00D07BF1 /* LivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePresenter.swift; sourceTree = "<group>"; };
 		967C60C5263A238E00D07BF1 /* MediaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPresenter.swift; sourceTree = "<group>"; };
 		967C60C7263A238E00D07BF1 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 				873FC15E2236072D008C7AB5 /* LiveViewController.swift */,
 				87C2146A223614A2001E1FA2 /* LiveViewModel.swift */,
 				87C2146C223614FE001E1FA2 /* LiveView.swift */,
+				96448F30266410C20035B32C /* AVView.swift */,
 			);
 			path = LiveView;
 			sourceTree = "<group>";
@@ -281,6 +283,7 @@
 			children = (
 				967C60CE263A238E00D07BF1 /* NSObject+.swift */,
 				967C60CF263A238E00D07BF1 /* MCPeerID+.swift */,
+				96448F32266495520035B32C /* UIImage+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -437,16 +440,13 @@
 				967C60F5263A238E00D07BF1 /* AudioProtocols.swift in Sources */,
 				87C2147E223628E6001E1FA2 /* NSObjectCoordinator.swift in Sources */,
 				87C2149022365CE9001E1FA2 /* PeerTableViewModel.swift in Sources */,
-				967C6100263A23CD00D07BF1 /* MCSessionManagerTester.swift in Sources */,
 				87C2149222365DAE001E1FA2 /* PeerIDTableCell.swift in Sources */,
 				967C60ED263A238E00D07BF1 /* TimerManager.swift in Sources */,
 				967C60E3263A238E00D07BF1 /* MediaPresenter.swift in Sources */,
 				87C2146D223614FE001E1FA2 /* LiveView.swift in Sources */,
-				967C6101263A23CD00D07BF1 /* MultipeerLiveKitTests.swift in Sources */,
 				967C60E6263A238E00D07BF1 /* MultipeerProtocols.swift in Sources */,
 				967C60E2263A238E00D07BF1 /* LivePresenter.swift in Sources */,
 				967C60F2263A238E00D07BF1 /* SampleBufferCamera.swift in Sources */,
-				967C60FB263A23B300D07BF1 /* Package.swift in Sources */,
 				87ED8B1A22380B5E00251B71 /* CellContentCoordinator.swift in Sources */,
 				87C2148822365A90001E1FA2 /* SettingViewPresenter.swift in Sources */,
 				967C60F6263A238E00D07BF1 /* AudioCaptureModel.swift in Sources */,
@@ -455,10 +455,12 @@
 				967C60EB263A238E00D07BF1 /* RandomGenerater.swift in Sources */,
 				967C60E7263A238E00D07BF1 /* AdvertisingModel.swift in Sources */,
 				967C60E9263A238E00D07BF1 /* NSObject+.swift in Sources */,
+				96448F31266410C20035B32C /* AVView.swift in Sources */,
 				967C60E4263A238E00D07BF1 /* utils.swift in Sources */,
 				967C60F0263A238E00D07BF1 /* DataReader.swift in Sources */,
 				967C60EF263A238E00D07BF1 /* VideoOnlyHelper.swift in Sources */,
 				967C60F3263A238E00D07BF1 /* VideoDataConverter.swift in Sources */,
+				96448F33266495520035B32C /* UIImage+Ext.swift in Sources */,
 				967C60EC263A238E00D07BF1 /* PeerIDHelper.swift in Sources */,
 				87C214822236590D001E1FA2 /* SettingViewController.swift in Sources */,
 				87C2146B223614A2001E1FA2 /* LiveViewModel.swift in Sources */,
@@ -620,7 +622,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MultiPeerLiveKitDemo/MultiPeerLiveKitDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S7Y6KVRU5;
@@ -647,7 +648,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MultiPeerLiveKitDemo/MultiPeerLiveKitDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S7Y6KVRU5;

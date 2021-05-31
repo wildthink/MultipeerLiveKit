@@ -43,8 +43,17 @@ final class AudioCaptureModel: NSObject, AudioOutputDelegate {
         let mainMixerNode = engine.mainMixerNode
         inputNode = engine.inputNode
         engine.attach(mixerNode)
-        engine.connect(mixerNode, to: mainMixerNode, format: avAudioFormat)
-        engine.connect(inputNode, to: mixerNode, format: avAudioFormat)
+        
+        // jmj
+        // https://developer.apple.com/forums/thread/649788
+        let input = engine.inputNode
+        let sampleRate = input.inputFormat(forBus: 0).sampleRate
+        let channelCount = input.inputFormat(forBus: 0).channelCount
+        let avf = AVAudioFormat(commonFormat: .pcmFormatFloat32, sampleRate: sampleRate, channels: channelCount, interleaved: false)
+
+        // avf below was avAudioFormat
+        engine.connect(mixerNode, to: mainMixerNode, format: avf)
+        engine.connect(inputNode, to: mixerNode, format: avf)
     }
 
     private func engineStart() throws {
